@@ -38,7 +38,7 @@
                     }
 
                     document.querySelector(".weather").style.display = "block";
-                    document.querySelector(".error").style.display ="non";
+                    document.querySelector(".error").style.display ="none";
                     
                 }
                 }
@@ -46,5 +46,6 @@
             searchbtn.addEventListener("click",()=>{
                 checkweather(searchbox.value);
             })
+
 
             checkweather()
